@@ -6,8 +6,8 @@ Created on Thu Apr 03 07:30:34 2014
 """
 import itertools
 import numpy as np
-import anfis
-from anfis import mfDerivs, membershipfunction
+#import anfis
+import mfDerivs, membershipfunction
 import copy
 
 class ANFIS:
