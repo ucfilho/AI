@@ -1,29 +1,16 @@
-
-
 import openai
 import os
-
-
 
 
 path =r'C:\Users\User\Documents\Atividades_andamento\AI_Prompt_Eng\data'
 os.chdir(path)
 
-
-
 from dotenv import dotenv_values # used to save passawords credicard numbers,etc
-
-
 
 config = dotenv_values(".env")
 
 
-
-
 openai.api_key = config["OPENAI_API_KEY"]
-
-
-
 
 # note : control C (^C) interrupt in python code but not in notebook in notebook you need to use button square
 while True:
@@ -39,8 +26,3 @@ while True:
     except KeyboardInterrupt:
         print("Exiting...")
         break
-
-
-
-
-
