@@ -69,13 +69,13 @@ method.type = "WM" # "WM" ,"ANFIS", "HYFIS", "FS.HGD" (para TSK)
 control = control_WM_SIGMOID #control_WM_TRIANGLE   # control_ANFIS control_TSK
 file_name = "df_rules_control_WM_TRIANGLE.xlsx"
 
-##  WM TRAPEZOID cross validation  R^2= 0.6680274 cross validation RSSE= 7528137
-##  WM_GAUSSIAN cross validation  R^2= 0.7632468   RSSE= 5342168
-##  WM_SIGMOID  cross validation  R^2= 0.8670121   RSSE= 8137168
-##  WM_TRIANGLE  cross validation R^2= 0.750266    RSSE= 13259806
-##  hyfis cross validation        R^2= 0.758817    RSSE= 5353482 
-##  Anfis cross validation        R^2= 0.4548656   RSSE= 7169801
-##  TSK cross validation  R^2=    RSSE=    NAO RODOU
+##  WM TRAPEZOID cross validation   cross validation RSSE= 7528137
+##  WM_GAUSSIAN cross validation     RSSE= 5342168
+##  WM_SIGMOID  cross validation     RSSE= 8137168
+##  WM_TRIANGLE  cross validation    RSSE= 13259806
+##  hyfis cross validation           RSSE= 5353482 
+##  Anfis cross validation          RSSE= 7169801
+##  TSK cross validation    RSSE=    NAO RODOU
 # Use the function to find the range for the dataframe
 range_matrix <- find_range(data)
 
